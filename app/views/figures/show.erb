@@ -1,0 +1,10 @@
+
+<h1><%= @figure.name %></h1>
+
+<form action="/figures/<%= @figure.id%>"  method="post"> 
+<input type="hidden" name="_method" value="delete"/>
+<input type="submit" value="Delete the Figures"/>
+</form>
+
+
+
